@@ -8,7 +8,7 @@ body, html{
 .banner{
     width: 100%;
     height: auto;
-    background-color: #white;
+    background-color: #FFFFFF;
     padding-top: 0px;
 }
 .banner h1{
@@ -46,7 +46,7 @@ div.contact-bar{
 div.contact-bar ul{
 	list-style-type: none;
 	width: 100%;
-	background-color:#75280A;
+	background-color:#8C0F0F;
 	display: table;
 	overflow: auto;
 	padding: 0px;
@@ -71,7 +71,7 @@ a{
 #interest-section{
     height: auto;
     width: 100%;
-    background-color: #A3433A;
+    background-color: #474747;
     text-align: justify;
 }
 #interest-section img{
