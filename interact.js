@@ -25,3 +25,7 @@ function check(){
 	}
 	return false;
 }
+function roar(){
+	var bear = new Audio('sounds/Bear.mp3')
+	bear.play();
+}
