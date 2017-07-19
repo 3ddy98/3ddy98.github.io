@@ -17,7 +17,7 @@ function check(){
 	var date = document.getElementById('national').value
 	if(date == "2005-10-29"){
 		window.location.href="https://www.youtube.com/watch?v=J---aiyznGQ";
-		alert("Working");
+		alert("Fine.");
 		return false;
 	}
 	else{
