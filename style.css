@@ -92,3 +92,9 @@ a{
 #text ul{
     list-style: none;
 }
+#cat{
+    width: 25%;
+    height: 50%;
+    text-align: center;
+    display: block;
+}
