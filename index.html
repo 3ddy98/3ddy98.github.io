@@ -1,45 +1,161 @@
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org.1999/xhtml">
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Welcome!</title>
+    <link rel="shortcut icon" href="pictures/PistonIcon.png" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Spectral+SC" rel="stylesheet">
 
-<head>
-    <title>Edward's Site</title>
-    <link rel="stylesheet" href="style.css">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <script type="text/javascript" src="interact.js"></script>
-</head>
+    <!-- Bootstrap CSS -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <!--My CSS-->
+    <link rel="stylesheet" href="css/style.css" />
+    <!--jQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <nav class = "navbar fixed-top navbar-expand-lg navbar-dark bg-dark" id = "Home">
+      <a class = "navbar-brand nav-bar-title-text" href="#intro" style="font-size:90%;">Edward Ponce ~ Mechanical Engineer</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapse-for-mobile" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div  class = "collapse navbar-collapse" id = "collapse-for-mobile">
+        <div class = "navbar-nav">
+          <a class = "nav-item nav-link collapse" href="#intro">Home</a>
+          <a class = "nav-item nav-link collapse" href = "#About">About Me</a>
+          <a class = "nav-item nav-link collapse" href = "#Experience">Experience</a>
+          <a class = "nav-item nav-link collapse" href = "#Contact">Contact Me</a>
+        </div>
+      </div>
+    </nav>
 
-<body>
-    <div class="banner">
-        <img src="pictures/BannerPic.png" />
-    </div>
-    <div class="contact-bar">
-        <ul>
-            <li><a href="mailto:eaponce.vanguard@gmail.com">Email</a></li>
-            <li><a href="https://www.github.com/3ddy98">Github</a></li>
-            <li><a href="https://www.facebook.com/edward.ponce3">Facebook</a></li>
-            <li><a href="https://www.linkedin.com/in/edward-p-819138117/">LinkedIn</a></li>
-        </ul>
-    </div>
-    <div class="content">
-			<div id="mypic_container">
-                <img src="pictures/ME.png" alt="Me hiking" id="mypic" />
-			</div>
-            <div id="text">
-                <p> Hi, my name is Edward and this is my website.</p>
-                <p>I am currently studying Mechanical Engineering at the University of California Riverside</p>
-                <p>As a mechanical engineer I have experience in SolidWorks and am currently certified</p>
-                <a href="pictures/SolidWorksCertification.PNG">
-                    <img src="pictures/SolidWorksCertification.PNG" alt="SolidWorks Certification" height="25%" width="25%"/>
-                </a>
-            </div>
+    <section  class = "jumbotron" id = "intro" style = "padding-top:20vh; height:100vh;">
+      <h1 class = "text-center" style="font-size:5vw;">Hello, My name is Edward</h1>
+    </section>
+
+    </section>
+
+    <section id = "About" class = "text-center" style="height:auto; padding-top:5rem;">
+      <h1>About Me</h1>
+      <p class = " col-8 centered text-center">
+        First of all I would like to thank you for visiting my site. Sometimes these kinds of things dont get much attention.
+        Okay, onto myself then. I am a second year Mechanical Engineer at the University of California, Riverside.
+        I love messing around with new things and doing my best to learn all that I can about mechanical, electrical, and computer systems alike.
+      </p>
+      <div class = "fluid-container" id = "about-content">
+        <div class = "row no-padding">
+          <div class = "col-4 no-padding">
+            <a href="https://www.facebook.com/edward.ponce3"><img src="pictures/facebook400.png" id="content-pictures" /></a>
+          </div>
+          <div class = "col-4 no-padding">
+            <a href="https://www.linkedin.com/in/edward-p-819138117/"><img src = "pictures/linkedin400.png" id="content-pictures" /></a>
+          </div>
+          <div class = "col-4 no-padding">
+            <a href="https://github.com/3ddy98"><img src = "pictures/github400.png" id="content-pictures"/></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id = "Experience" class = "text-center" style="height:auto; padding-top:5rem;">
+      <h1>Experience</h1>
+      <div class = "fluid-container " style="padding-top:2rem;">
+        <div class = "row no-padding">
+          <div class = "col-lg-4">
+              <div class = "card centered" id = "content-card">
+                <div class = "card-body" id = "content-card-body">
+                  <h4 class = "card-title">I.T. Intern Position</h4>
+                  <h6 class = "card-subtitle mb-2 text-muted">University of California, Riverside Police Department</h6>
+                  <span>
+                  <p class = "card-text">
+                    Working as an Information Technologies employee in charge of the following:
+                    <ul style="text-align:left;">
+                      <li>
+                        Database Maintenance
+                      </li>
+                      <li>
+                        Computer Repair and Maintenance
+                      </li>
+                      <li>
+                        Network Diagnostics
+                      </li>
+                      <li>
+                        Radio Repair and Maintenance
+                      </li>
+                    </ul>
+                  </p>
+                </span>
+                  <span id = "content-card-date"><h1>2016-Present</h1></span>
                 </div>
-	<div id="interest-section">
-		<img src="pictures/SAE.png" alt="SAE" />
-    	<img src="pictures/ucr.png" alt="University of California, Riverside" onclick="roar()"/>
-    	<img src="pictures/IEEE.png" alt="Institute of Electrical and Electronics Engineers"/>
-   		<img src="pictures/acm.png" alt="Association of Computing Machinery"/>
-	</div>
+              </div>
+            </div>
+            <div class = "col-lg-4">
+                <div class = "card centered" id = "content-card">
+                  <div class = "card-body" id = "content-card-body">
+                    <h4 class = "card-title">Solidworks Associate Level Certification</h4>
+                    <h6 class = "card-subtitle mb-2 text-muted">Solidworks 2016-2017</h6>
+                    <span>
+                    <p class = "card-text">
+                      I have also obtained an Associate level Certification in solid works.</br>
+                    </p>
+                  </span>
+                  <a href="pictures/SolidWorksCertification.PNG"><img src="pictures/SolidWorksCertification.PNG"  style="max-width:45%;" /></a>
+                    <span id = "content-card-date"><h1 class =>2016-Present</h1></span>
 
-</body>
+                  </div>
+              </div>
+          </div>
+          <div class = "col-lg-4">
+            <div class = "card centered" id = "content-card">
+              <div class = "card-body" id = "content-card-body">
+                <h4 class = "card-title">Member of Upright Design Team</h4>
+                <h6 class = "card-subtitle mb-2 text-muted">Societ of Automotive Engineers</h6>
+                <span>
+                <p class = "card-text">
+                  Am currently part of the Highlanders race team building an electric vehicle. <br />
+                  I have assited in the design of the Wheel Upright system and completely designed the Wheel Hub Below.</br>
+                </p>
+              </span>
+              <a href="pictures/wheelhub.jpg"><img src="pictures/wheelhub.jpg"  style="max-width:45%;" /></a>
+                <span id = "content-card-date"><h1 class =>2016-Present</h1></span>
 
+              </div>
+          </div>
+          </div>
+        </div>
+        </div>
+
+    </section>
+
+
+    <section id = "Contact" class = "text-center" style="height:auto; padding-top:30vh;">
+      <h1>Contact Me</h1>
+      <p>
+        Below you will find any and all information you will need to get in touch with me.
+      </p>
+      <div class = "fluid-container" style="margin-bottom: 15rem;"  >
+        <div class = "row justify-content-between no-padding">
+          <div class = "fluid-container centered">
+            <a href="materials/Resume-EdwardPonce.pdf"><button type="button" class = "btn btn-primary btn-lg">Resume</button></a>
+            <a href="mailto:eaponce.vanguard@gmail.com"><button type="button" class = "btn btn-primary btn-lg">E-mail</button></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id = "bottom-bar">
+
+    </section>
+    </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    </body>
 </html>

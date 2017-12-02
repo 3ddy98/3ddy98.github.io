@@ -1,0 +1,55 @@
+/*IDs*/
+#about-content{
+  padding-top: 15vh;
+}
+#content-pictures {
+    height:50%;
+    width:auto;
+    max-width: 100%;
+    width: auto\9; /* ie8 */
+    padding: 0;
+}
+#intro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#content-card{
+  height:30rem;
+}
+#bottom-bar{
+  height:10vh;
+  background-color: #343a40;
+}
+#content-card-body{
+  position: relative;
+}
+#content-card-date{
+  position: absolute;
+  bottom:0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/* Classes*/
+
+.no-padding{
+  padding: 0;
+  margin: 0;
+}
+.nav-bar-title-text{
+  font-size: 99%;
+  font-family: 'Spectral SC', serif;
+}
+.jumbotron{
+  background-image: url("../pictures/mechanical.jpg");
+  color: white;
+  background-position: fixed;
+  font-family: 'Spectral SC', serif;
+  height: 70vh;
+}
+.centered{
+float: none;
+margin: 0 auto;
+}
