@@ -1,12 +1,14 @@
+/*Tags*/
+h1{
+  font-size: 10vh;
+}
 /*IDs*/
 #about-content{
   padding-top: 15vh;
 }
 #content-pictures {
-    height:50%;
-    width:auto;
+    max-height: 50%;
     max-width: 100%;
-    width: auto\9; /* ie8 */
     padding: 0;
 }
 #intro{
@@ -33,7 +35,15 @@
   margin-bottom: 2rem;
 }
 /* Classes*/
-
+.center-image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fit-image{
+  max-width: 50%;
+  max-width: 50%;
+}
 .no-padding{
   padding: 0;
   margin: 0;
