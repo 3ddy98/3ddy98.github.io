@@ -48,14 +48,19 @@
     </nav>
 
     <section  class = "jumbotron" id = "intro" style = "padding-top:20vh; height:100vh;">
-      <h1 class = "text-center" style="font-size:5vw;">Hello, My name is Edward</h1>
+      <h1 class = "text-center" id="intro-text">Hello, My name is Edward</h1>
     </section>
 
     </section>
 
-    <section id = "About" class = "text-center" style="height:auto; padding-top:5rem;">
+    <section id = "About" class = "text-center full-section">
+      <div class="row no-padding">
+        <div class = "col-4 centered">
+          <img src="pictures/me.png" class="center-image fit-image"/>
+        </div>
+      </div>
       <h1>About Me</h1>
-      <p class = " col-8 centered text-center">
+      <p class = " col-8 centered text-center" style="font-size:3vh;">
         Hello there! My name is Edward and I'm an Undergraduate Mechanical Engineering Student at the University of California Riverside.
         I've chosen to make this website to hopefully give you a better idea of who I am and what I do.
         Below you will find all of my relevant work experience and projects.
@@ -77,7 +82,7 @@
       </div>
     </section>
 
-    <section id = "Experience"  style="height:auto; padding-top:5rem;">
+    <section id = "Experience" class = "full-section">
       <h1 class="text-center">Experience</h1>
       <div class = "fluid-container " style="padding-top:2rem;">
         <div class = "col-8 centered">
@@ -108,17 +113,46 @@
             </div>
         </div>
       </div>
+
+      <div class = "col-8 centered" style="padding-top:2rem;">
+        <div class ="card">
+          <div class = "card-header text-white" style="background-color:#212529;">
+            <h3 class="text-center">Electric Vehicle Battery Lead- University of California,Riverside Formula SAE Team</h3>
+          </div>
+          <div class = "card-body">
+            <div class ="row">
+              <div class ="col-6">
+                <div class = "card-title">
+                  <h5>2017-Present<h5>
+                </div>
+                <p class = "card-text" style="font-size:5vh;">
+                  Responsibilities Include:
+                  <ul style="font-size:3vh;">
+                    <li>Designing EV Vehicle Battery Pack with Solidworks</li>
+                    <li>Analyzing Mechanical Parts with Solidworks Simulation</li>
+                    <li>Leading a Group of Engineers to Better Battery Design</li>
+                  </ul>
+                </p>
+              </div>
+              <div class = "col-6">
+                <img src="pictures/SAE.png" class = "center-image fit-image"/>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+
     </div>
 
     </section>
 
 
-    <section id = "Contact" class = "text-center" style="height:auto; padding-top:30vh;">
+    <section id = "Contact" class = "text-center full-section">
       <h1>Contact Me</h1>
       <p>
         Below you will find any and all information you will need to get in touch with me.
       </p>
-      <div class = "fluid-container" style="margin-bottom: 15rem;"  >
+      <div class = "fluid-container" style="margin-bottom: 10rem;"  >
         <div class = "row justify-content-between no-padding">
           <div class = "fluid-container centered">
             <a href="materials/Resume-EdwardPonce.pdf"><button type="button" class = "btn btn-primary btn-lg">Resume</button></a>
@@ -128,7 +162,9 @@
       </div>
     </section>
     <section id = "bottom-bar">
-
+      <div style="row">
+        <a href="#intro"><h3 style="color:grey;">Back to Top</h3></a>
+      </div>
     </section>
     </nav>
 

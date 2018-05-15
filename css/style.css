@@ -3,6 +3,13 @@ h1{
   font-size: 10vh;
 }
 /*IDs*/
+#intro-text{
+  font-size:5vw;
+  background-color: #212529;
+  border-style: solid;
+  border-color: white;
+  border-width: 1vh;
+}
 #about-content{
   padding-top: 15vh;
 }
@@ -14,6 +21,7 @@ h1{
 #intro{
   display: flex;
   align-items: center;
+  background-repeat: repeat;
   justify-content: center;
 }
 #content-card{
@@ -35,6 +43,11 @@ h1{
   margin-bottom: 2rem;
 }
 /* Classes*/
+.full-section{
+  min-height: 100vh;
+  min-width: auto;
+  padding-top:10rem;
+}
 .center-image{
     display: block;
     margin-left: auto;
