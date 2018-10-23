@@ -23,7 +23,7 @@ h1{
 }
 #About{
   background-image: url("../pictures/wheelhub.png");
-  background-size: contain;
+  background-size: cover;
   max-height: 1vh;
   color:white;
 }
@@ -38,7 +38,7 @@ h1{
   background-repeat: repeat;
   justify-content: center;
   background-image: url("../pictures/BatteryWiring-min.png");
-  background-size: contain;
+  background-size: cover;
   margin-bottom: 0;
 }
 #content-card{
@@ -60,7 +60,7 @@ h1{
   margin-bottom: 2rem;
 }
 #Experience{
-  background-image:url("../pictures/junctionbox.png");
+  background-image: url("../pictures/junctionbox.png");
   background-size: contain;
 }
 #socialmedia{
