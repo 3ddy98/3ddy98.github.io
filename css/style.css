@@ -10,10 +10,13 @@ h1{
 /*IDs*/
 #intro-text{
   font-size:5vw;
-  background-color: #212529;
   border-style: solid;
   border-color: white;
-  border-width: 1vh;
+  border-width: thick;
+  width: auto;
+  z-index: 1;
+  background-color: rgb(33, 37, 41,.8);
+  transition: 0s;
 }
 #about-content{
   width:auto;
@@ -24,7 +27,7 @@ h1{
 #About{
   background-image: url("../pictures/wheelhub.png");
   background-size: cover;
-  max-height: 1vh;
+  min-height: 100vh;
   color:white;
 }
 #content-pictures {
@@ -35,6 +38,8 @@ h1{
 #intro{
   display: flex;
   align-items: center;
+  min-height: 100vh;
+  padding-top: 20vh;
   background-repeat: repeat;
   justify-content: center;
   background-image: url("../pictures/BatteryWiring-min.png");
@@ -61,7 +66,9 @@ h1{
 }
 #Experience{
   background-image: url("../pictures/junctionbox.png");
-  background-size: contain;
+  background-size: cover;
+  min-height: 1vh;
+  background-position: center;
 }
 #socialmedia{
   width:auto;
