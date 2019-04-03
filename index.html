@@ -49,7 +49,7 @@
     </nav>
 
     <section  class = "jumbotron" id = "intro">
-          <h1 class = "text-center" id="intro-text">Hello, My name is Edward</h1>
+          <h1 class = "text-center" id="intro-text">Hello, My Name Is Edward</h1>
     </section>
 
     </section>
@@ -62,10 +62,10 @@
       </div>
       <h1>About Me</h1>
       <p class = " col-8 centered text-center" style="font-size:3vh;">
-        Hello there! My name is Edward and I'm an Undergraduate Mechanical Engineering Student at the University of California Riverside.
+        Hello there! I'm an Undergraduate Mechanical Engineering Student at the University of California Riverside.
         I've chosen to make this website to hopefully give you a better idea of who I am and what I do.
         Below you will find all of my relevant work experience and projects.
-        If you have any questions don't hesistate to reach out through the contact section of this webpage!
+        If you have any questions don't hesistate to reach out through the contact section at the bottom!
         Thank you for visiting!
       </p>
       <div class = "container" id = "about-content">
@@ -74,24 +74,80 @@
     </section>
 
     <section id="Experience" class="full-section">
-        <h1 class="text-center">Experience</h1>
-        <div class="container-section">
-            <div class="row exp-row">
+        <h1 class="text-center">Projects</h1>
+            <div class="container-fluid">
+              <div class="row">
                 <div class="col-4 left-card">
-                  <div class="container">
-                    <img src="pictures/ucpdbadge.png" class="exp_pic img-fluid"/>
-                  </div>
+                    <img src="pictures/Mounting/BatteryMountignChassis.png" class="exp_pic img-fluid"/>
+                    <img src="pictures/Mounting/Battery Mounting Back.png" class="exp_pic img-fluid"/>
                 </div>
-                <div class="col">
+                <div class="col-4 exp-center-card">
+                  <h2>Accumulator Mounting</h2>
+                  <p>When designing the battery Mounting system on the HR19 vehicle it became apparent that our
+                    chassis was not optimized for the fitment of our accumulator and this presented the challenge of how to attach the accumulator to the frame from a considerably large distance from the nearest tubes.
+                  </p>
+                  <p> The idea of creating railings for the Accumulator as a subchassis seemed the most viable option with the current state of the chassis.
+                    By doing this, I was able to reduce the amount of components used from two brackets per mounting point to one bracket.
+                  </p>
+                  <p>
+                    The brackets were designed to withstand 21.5KN of force in any direction with a minimum factor of safety of 1.5
+                  </p>
+                  <img src="pictures/Mounting/Battery Bracket FOS.PNG" class="exp_pic img-fluid"/>
+                  <p>
+                    These design objects were met and the design was ultimately successful and is currently in production for the upcoming EV FSAE competition in Lincoln Nebraska
+                  </p>
+                </div> <!--Start of Mounting Description-->
 
+                <div class="col-4 right-card">
+                  <img src="pictures/Mounting/BracketStressAnimated.gif" class="exp_pic img-fluid"/>
+                  <img src="pictures/Mounting/BracketDisplacementAnimated.gif" class="exp_pic img-fluid" style="margin-top:100px;"/>
                 </div>
+              </div>
             </div>
-        </div>
+<!--Start of Wheelhub section-->
+            <div class="container-fluid" style="margin-top:100px;">
+              <div class="row">
+                <div class="col-4 left-card">
+                    <img src="pictures/Wheel Hub/FullUpright.png" class="exp_pic img-fluid"/>
+                    <img src="pictures/Wheel Hub/Wheelhub-corner.png" class="exp_pic img-fluid"/>
+                    <img src="pictures/Wheel Hub/Rear-wheelhub.png" class="exp_pic img-fluid"/>
+                </div>
+
+                <div class="col-4 exp-center-card">
+                  <h2>Wheel Hub</h2>
+                  <p>When I first joined Highlander Racing at UCR, I didn't know which project or team I wanted to be a part of.
+                    As my first official project I chose to be a part of Drivetrain to design the Wheel Hub.
+                  </p>
+                  <p>Many of the first challenges from this project were simply to understand the purposed, placement, and functionality of the Wheel Hub.
+                    Once I understood the fundamental role of the Wheel Hub, to support the loads of the vehicle being transfered through the wheel, I approached the issue with a few goals in mind.
+                  </p>
+                  <p>First, I needed to be sure that the weakest components of the Wheel Hub, the wheel stud holes, would be safe under cornering conditions. After running simulations considering
+                    torques and remote loads and many iterations, I settled for a minumum factor of safety of 3. While this may seem high, I wanted to make sure that our first vehicle would be less prone to failure
+                    as this was my first project for the club.
+                  </p>
+                  <img src="pictures/Wheel Hub/Wheelhub2-2.PNG" class="exp_pic img-fluid"/>
+                  <p>Second, I needed to make sure that the rest of the system would be functional within the frame of the Wheel Hub. The planets of our double planetary
+                     reduction gearset had to fit within the part without colliding on the inner walls of the mating pieces between the Wheel Hub and Planet carrier.
+                     This was a fairly simple task but required constant coordination with the group to assure no changes would be made that could affect the alignment of the Wheel Hub.
+                   </p>
+                   <p>Ultimately, as my first project I understand that there was definitely room for improvement in the future in terms of manufacturability and weight reduction, however, and since I have applied
+                     the knowledge gained from this project in those areas to simplify and reduce future projects.
+                   </p>
+                </div>
+
+                <div class="col-4 right-card">
+                  <img src="pictures/Wheel Hub/WheelHubStress.gif" class="exp_pic img-fluid" />
+                  <img src="pictures/Wheel Hub/WheelHubDisplacement.gif" class="exp_pic img-fluid"style="margin-top:50px;"/>
+                </div>
+              </div>
+            </div>
     </section>
 
+
+
     <section id = "Contact" class = "text-center full-section">
-      <h1>Contact Me</h1>
-      <p>
+      <h1 style="color:black;;">Contact Me</h1>
+      <p style="color:black;">
         Below you will find any and all information you will need to get in touch with me.
       </p>
       <div class = "fluid-container" style="margin-bottom: 10rem;"  >
