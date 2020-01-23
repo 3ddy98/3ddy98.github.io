@@ -81,6 +81,12 @@ p{
   margin-right: auto;
 }
 /* Classes*/
+.carousel-inner{
+  height: 100%;
+}
+.carousel-item{
+  width: 100%
+}
 .full-section{
   min-height: 100vh;
   min-width: auto;
