@@ -1,6 +1,7 @@
 /*Tags*/
 html{
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  scroll-behavior: smooth;
 }
 h1{
   font-size: 10vh;
@@ -34,6 +35,7 @@ p{
 #About{
   background-image: url("../pictures/wheelhub.png");
   background-size: cover;
+  background-position: center;
   color:white;
 }
 #content-pictures {
@@ -47,9 +49,11 @@ p{
   min-height: 100vh;
   background-repeat: repeat;
   justify-content: center;
-  background-image: url("../pictures/BatteryWiring-min.png");
+  background-image: url("../pictures/Reveal_Render_regular.png");
   background-size: cover;
+  background-position: center;
   margin-bottom: 0;
+
 }
 #content-card{
   height:30rem;
