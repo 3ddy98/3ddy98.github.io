@@ -97,6 +97,14 @@ p{
   padding-top:5rem;
   background-color: black;
 }
+full-section-expanded{
+  min-height: 100vh;
+  min-width: auto;
+  padding-top:10vh;
+  background-color: black;
+  padding-left: 10%;
+  padding-right: 10%;
+}
 .center-image{
     display: block;
     margin-left: auto;
@@ -130,6 +138,11 @@ p{
 .centered{
 float: none;
 margin: 0 auto;
+}
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .exp-center-card{
   text-align: center;
